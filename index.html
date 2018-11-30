@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" type="text/javascript" language="JavaScript"></script>
+
+
+</head>
+<body>
+<div id="skaiciafke">
+    <div id="atsakymas"></div>
+    <ul>
+        <li><button type="submit" id="septyni" onclick="handleNumber('7')" >7</button></li>
+        <li><button type="submit" id="astuoni" onclick="handleNumber('8')" >8</button></li>
+        <li><button type="submit" id="devyni" onclick="handleNumber('9')" >9</button></li>
+        <li><button type="submit" id="dalinti" onclick="handleAction('/')">/</button></li>
+        <li><button type="submit" id="keturi" onclick="handleNumber('4')" >4</button></li>
+        <li><button type="submit" id="penki" onclick="handleNumber('5')" >5</button></li>
+        <li><button type="submit" id="sesi" onclick="handleNumber('6')" >6</button></li>
+        <li><button type="submit" id="dauginti" onclick="handleAction('*')">X</button></li>
+        <li><button type="submit" id="vienas" onclick="handleNumber('1')" >1</button></li>
+        <li><button type="submit" id="du" onclick="handleNumber('2')" >2</button></li>
+        <li><button type="submit" id="trys" onclick="handleNumber('3')" >3</button></li>
+        <li><button type="submit" id="minus" onclick="handleAction('-')">-</button></li>
+
+
+    </ul>
+
+    <button type="submit" id="nulis" onclick="handleNumber('0')" >0</button>
+    <button type="submit" id="kabl" onclick="handleKabl()">.</button>
+    <button type="submit" id="plius" onclick="handleAction('+')">+</button>
+    <button type="submit" id="lygu" onclick="handleLygu()">=</button>
+
+</div>
+
+
+<div id="lenta">
+    <table id="lentele">
+        <tr>
+            <th>A</th>
+            <th>Veiksmas</th>
+            <th>B</th>
+            <th>=</th>
+        </tr>
+
+    </table>
+</div>
+
+
+
+
+
+</body>
+</html>
