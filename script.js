@@ -79,6 +79,8 @@ function handleLygu() {
 
 
 
+
+
     hdn="";
     disp="";
     result=0;
